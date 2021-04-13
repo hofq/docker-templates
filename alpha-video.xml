@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Alpha-Video</Name>
+  <Name>alpha-video</Name>
   <Repository>alpha-video:latest</Repository>
   <Registry>https://hub.docker.com/r/andrewstech/alpha-video</Registry>
   <Network>bridge</Network>
@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://discord.gg/FYpCjJYbRb</Support>
   <Project>https://github.com/unofficial-skills/alpha-video</Project>
-  <Overview>What is Alpha-Video? A skill to stream audio from Youtube to Your Alexa. It can be hosted in just one Docker-Container, but should be set up properly. Docs: https://alpha-video.andrewstech.me/docs/</Overview>
+  <Overview>A skill to stream audio from Youtube to Your Alexa. </Overview>
   <Category>Security: Network:Web Status:Stable</Category>
   <WebUI/>
   <TemplateURL>https://github.com/Kippenhof/docker-templates/blob/main/alpha-video.xml</TemplateURL>
@@ -33,11 +33,10 @@
   <Data/>
  <Environment>
     <Variable>
-     <Value>get creative</Value>
      <Name>subdomain</Name>
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="Alpha Video Port" Target="5000" Default="" Mode="tcp" Description="Alpha-VIdeo Port port: 5000" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
-  <Config Name="your Subdomain" Target="subdomain" Default="Get Creative!" Mode="" Description="Your Subdomain which gets generated (later: yoursubdomain.loca.lt)" Type="Variable" Display="always" Required="true" Mask="false">subdomain</Config>
+  <Config Name="Alpha Video Port" Target="5000" Default="" Mode="tcp" Description="Alpha-VIdeo Port port: 5000" Type="Port" Display="always" Required="true" Mask="false"/>
+  <Config Name="subdomain" Target="subdomain" Default="get_creative!" Mode="" Description="Your Subdomain which gets generated (later: yoursubdomain.loca.lt)" Type="Variable" Display="always" Required="true" Mask="false"/>
  </Container>
