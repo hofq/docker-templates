@@ -12,7 +12,7 @@
   <Category>Security: Network:Web Status:Stable</Category>
   <WebUI/>
   <TemplateURL>https://github.com/CHBMB/docker-templates/blob/master/authelia.xml</TemplateURL>
-  <Icon>https://i.imgur.com/p3h9hdO.png</Icon>
+  <Icon>https://i.imgur.com/68ihmOW.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
