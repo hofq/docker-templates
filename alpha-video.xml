@@ -12,7 +12,7 @@
   <Overview>What is Alpha-Video? A skill to stream audio from Youtube to Your Alexa. It can be hosted in just one Docker-Container, but should be set up properly. Docs: https://alpha-video.andrewstech.me/docs/</Overview>
   <Category>Security: Network:Web Status:Stable</Category>
   <WebUI/>
-  <TemplateURL>https://github.com/CHBMB/docker-templates/blob/master/authelia.xml</TemplateURL>
+  <TemplateURL>https://github.com/Kippenhof/docker-templates/blob/main/alpha-video.xml</TemplateURL>
   <Icon>https://i.imgur.com/68ihmOW.png</Icon>
   <ExtraParams/>
   <PostArgs/>
@@ -34,7 +34,7 @@
   
   <Environment>
     <Variable>
-     <Value>Get Creative!</Value>
+     <Value>get creative</Value>
      <Name>subdomain</Name>
     </Variable>
   </Environment>
