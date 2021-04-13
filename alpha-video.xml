@@ -31,14 +31,12 @@
     </Publish>
   </Networking>
   <Data/>
-  
-  <Environment>
+ <Environment>
     <Variable>
      <Value>get creative</Value>
      <Name>subdomain</Name>
     </Variable>
   </Environment>
-
   <Labels/>
   <Config Name="Alpha Video Port" Target="5000" Default="" Mode="tcp" Description="Alpha-VIdeo Port port: 5000" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
   <Config Name="your Subdomain" Target="subdomain" Default="Get Creative!" Mode="" Description="Your Subdomain which gets generated (later: yoursubdomain.loca.lt)" Type="Variable" Display="always" Required="true" Mask="false">subdomain</Config>
