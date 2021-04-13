@@ -1,0 +1,42 @@
+<Container version="2">
+  <Name>Alpha-Video</Name>
+  <Repository>alpha-video:latest</Repository>
+  <Registry>https://hub.docker.com/r/andrewstech/alpha-video</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://discord.gg/FYpCjJYbRb</Support>
+  <Project>https://github.com/unofficial-skills/alpha-video</Project>
+  <Overview>What is Alpha-Video? A skill to stream audio from Youtube to Your Alexa. It can be hosted in just one Docker-Container, but should be set up properly. Docs: https://alpha-video.andrewstech.me/docs/</Overview>
+  <Category>Security: Network:Web Status:Stable</Category>
+  <WebUI/>
+  <TemplateURL>https://github.com/CHBMB/docker-templates/blob/master/authelia.xml</TemplateURL>
+  <Icon>https://i.imgur.com/p3h9hdO.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText>Buy Andrew a Drink</DonateText>
+  <DonateLink>https://paypal.me/andrewstechyoutube</DonateLink>
+  <Description>With Alpha Video you can easily play music from Youtube on your Alexa device. All you need is the container and a proper configured connection to Alexa. Instructions: https://alpha-video.andrewstech.me/docs/doc4</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5000</HostPort>
+        <ContainerPort>5000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  
+  <Environment>
+    <Variable>
+    <Value>Get Creative!</Value>
+    <Name>subdomain</Name>
+ </Container>
+  <Labels/>
+  <Config Name="Alpha Video Port" Target="5000" Default="" Mode="tcp" Description="Alpha-VIdeo Port port: 5000" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
+   <Config Name="your Subdomain" Target="subdomain" Default="Get Creative!" Mode="" Description="Your Subdomain which gets generated (later: yoursubdomain.loca.lt)" Type="Variable" Display="always" Required="true" Mask="false">subdomain</Config>
+</Container>
