@@ -12,7 +12,7 @@
   <Overview>An Tool, which allows you to Stream Youtube on your Echo-Device</Overview>
   <Category>Music</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/Kippenhof/docker-templates/main/alpha-video.xml<TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/Kippenhof/docker-templates/main/alpha-video.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Kippenhof/docker-templates/main/pictures/yt2thesea.png</Icon>
   <ExtraParams/>
   <PostArgs/>
