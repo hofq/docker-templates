@@ -22,7 +22,7 @@
   <DonateLink/>
   <Description> An Conatiner, that allows you to stream Youtube via Alexa &#xD;
   I documented the Installation-Process here:  &#xD;
-https://alpha-video.andrewstech.me/docs/unraid </Description>
+https://alpha-video.andrewstech.me/docs/unraid-os </Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
