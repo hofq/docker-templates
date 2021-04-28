@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://discord.gg/78p36SbKcV</Support>
   <Project>https://github.com/unofficial-skills/alpha-video</Project>
-  <Overview>An Tool, which allows you to Stream Youtube on your Echo-Device</Overview>
+  <Overview/>
   <Category>Music</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Kippenhof/docker-templates/main/alpha-video.xml</TemplateURL>
@@ -20,7 +20,8 @@
   <DateInstalled/>
   <DonateText/>
   <DonateLink/>
-  <Description>I documented the Installation-Process here:  &#xD;
+  <Description> An Conatiner, that allows you to stream Youtube via Alexa &#xD;
+  I documented the Installation-Process here:  &#xD;
 https://alpha-video.andrewstech.me/docs/unraid </Description>
   <Networking>
     <Mode>bridge</Mode>
