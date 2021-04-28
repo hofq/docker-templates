@@ -9,8 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://discord.gg/78p36SbKcV</support>
   <Project>https://github.com/unofficial-skills/alpha-video</Project>
-  <Overview>Installation-Process Descriped here:  &#xD;
-https://alpha-video.andrewstech.me/docs/doc3 </Overview>
+  <Overview>An Tool, which allows you to Stream Youtube on your Echo-Device</Overview>
   <Category>Music</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL/>
@@ -19,9 +18,9 @@ https://alpha-video.andrewstech.me/docs/doc3 </Overview>
   <PostArgs/>
   <CPUset/>
   <DateInstalled/>
-  <DonateText>Buy Andrew a Coffee</DonateText>
-  <DonateLink>https://paypal.me/andrewstechyoutube</DonateLink>
-  <Description>Installation-Process Descriped here:  &#xD;
+  <DonateText/>
+  <DonateLink/>
+  <Description>Installation-Process documented here:  &#xD;
 https://alpha-video.andrewstech.me/docs/doc3 </Description>
   <Networking>
     <Mode>bridge</Mode>
