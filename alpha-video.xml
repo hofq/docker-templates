@@ -41,13 +41,13 @@ https://alpha-video.andrewstech.me/docs/unraid-os </Description>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>localtunnel</Value>
-      <Name>subdomain</Name>
+      <Value>true</Value>
+      <Name>localtunnel</Name>
       <Mode/>
     </Variable>
   </Environment>
   <Labels/>
   <Config Name="Port" Target="5000" Default="5000" Mode="tcp" Description="Container Port: 5000" Type="Port" Display="always" Required="false" Mask="false">5000</Config>
   <Config Name="Subdomain " Target="subdomain" Default="changeme" Mode="" Description="[typeabove].loca.lt (should be over 3 Charakters)" Type="Variable" Display="always" Required="false" Mask="false">Get Creative!</Config>
-  <Config Name="Enable Localtunnel" Target="subdomain" Default="true" Mode="" Description="Enable Localtunnel (let the Default Value 'true' until i reworked the Docs)" Type="Variable" Display="always" Required="true" Mask="false">true</Config>
+  <Config Name="Enable Localtunnel" Target="localtunnel" Default="true" Mode="" Description="Enable Localtunnel (let the Default Value 'true' until i reworked the Docs)" Type="Variable" Display="always" Required="true" Mask="false">true</Config>
 </Container>
