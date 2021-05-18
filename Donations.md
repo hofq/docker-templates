@@ -9,3 +9,11 @@ Donation-Links of wonderful App/Image Creators
 ## Alpha-Video
 
 [Donate to Andrewstech](https://paypal.me/andrewstechyoutube "Andrew's Tech Paypal")
+
+
+## (Soon) Neko
+
+The Neko Container was not Written by Just one Person.
+The Main Part was Written by [nurdism](https://github.com/nurdism/neko) and it gets Maintained by [m1k1o](https://github.com/m1k1o/neko) of which I could not find a donation link.
+
+[Donate to Nurdism](https://www.patreon.com/nurdism)
