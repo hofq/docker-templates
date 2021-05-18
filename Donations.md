@@ -7,8 +7,9 @@ Donation-Links of wonderful App/Image Creators
 
 
 ## Alpha-Video
-Alpha-Video is Written by Andrewstech. [Organization-Repo](https://github.com/unofficial-skills/alpha-video) [his Private Github](https://github.com/andrewstech)
-[Donate to Andrewstech](https://paypal.me/andrewstechyoutube "Andrew's Tech Paypal")
+Alpha-Video is Written by Andrewstech. [Organization-Repo](https://github.com/unofficial-skills/alpha-video) | [his Private Github](https://github.com/andrewstech)
+  
+  [Donate to Andrewstech](https://paypal.me/andrewstechyoutube "Andrew's Tech Paypal")
 
 
 ## (Soon) Neko
