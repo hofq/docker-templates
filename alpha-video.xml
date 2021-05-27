@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
-  <Name>Alpha-Video-Test</Name>
+  <Name>Alpha-Video</Name>
   <Repository>andrewstech/alpha-video</Repository>
   <Registry>https://hub.docker.com/r/andrewstech/alpha-video</Registry>
   <Network>bridge</Network>
