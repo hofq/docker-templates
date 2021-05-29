@@ -12,7 +12,7 @@ Alpha-Video is Written by Andrewstech. [Organization-Repo](https://github.com/un
   [Donate to Andrewstech](https://paypal.me/andrewstechyoutube "Andrew's Tech Paypal")
 
 
-## (Soon) Neko
+## Neko
 
 The Neko Container was not Written by Just one Person.
 The Main Part was Written by [nurdism](https://github.com/nurdism/neko) and it gets Maintained by [m1k1o](https://github.com/m1k1o/neko) of which I could not find a donation link.

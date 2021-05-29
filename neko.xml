@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>neko</Name>
+  <Repository>m1k1o/neko:latest</Repository>
+  <Registry>https://hub.docker.com/r/m1k1o/neko/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>Neko is an Open-Source self-hosted Alternative to rabb.it(deprecated).&#xD;
+It Provide an Web-UI which is Secured by an Password.&#xD;
+&#xD;
+You can Easily Host it behind an Reverse-Proxy&#xD;
+&#xD;
+For Install-Docs &amp;amp; Sample Confs visit:&#xD;
+https://github.com/Kippenhof/docker-templates/wiki/Neko</Overview>
+  <Category>Media Applications:Video</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Kippenhof/docker-templates/main/pictures/neko-logo.svg</Icon>
+  <ExtraParams>--shm-size="2gb"</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Neko is an Open-Source self-hosted Alternative to rabb.it(deprecated).&#xD;
+It Provide an Web-UI which is Secured by an Password.&#xD;
+&#xD;
+You can Easily Host it behind an Reverse-Proxy&#xD;
+&#xD;
+For Install-Docs &amp;amp; Sample Confs visit:&#xD;
+https://github.com/Kippenhof/docker-templates/wiki/Neko</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>6530</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>52000-52100</HostPort>
+        <ContainerPort>52000-52100</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment>
+    <Variable>
+      <Value>ChangeMePls-&lt;3</Value>
+      <Name>NEKO_PASSWORD</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>ChangeMeAlsoPls_:)</Value>
+      <Name>NEKO_PASSWORD_ADMIN</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value></Value>
+      <Name>NEKO_NAT1TO1</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>52000-52100</Value>
+      <Name>NEKO_EPR</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>1920x1080@30</Value>
+      <Name>NEKO_SCREEN</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Web UI" Target="8080" Default="6530" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="true" Mask="false">6530</Config>
+  <Config Name="NEKO_PASSWORD" Target="NEKO_PASSWORD" Default="ChangeMePls-&amp;lt;3" Mode="" Description="Container Variable: NEKO_PASSWORD" Type="Variable" Display="always" Required="true" Mask="false">ChangeMePls-&lt;3</Config>
+  <Config Name="NEKO_PASSWORD_ADMIN" Target="NEKO_PASSWORD_ADMIN" Default="ChangeMeAlsoPls_:)" Mode="" Description="Container Variable: NEKO_PASSWORD_ADMIN" Type="Variable" Display="always" Required="true" Mask="false">ChangeMeAlsoPls_:)</Config>
+  <Config Name="NEKO_NAT1TO1" Target="NEKO_NAT1TO1" Default="" Mode="" Description="Enter IP if you want to use it in your local Network, else leave it Blank" Type="Variable" Display="always" Required="false" Mask="false">192.168.178.113</Config>
+  <Config Name="NEKO_EPR" Target="NEKO_EPR" Default="52000-52100" Mode="" Description="Container Variable: NEKO_EPR" Type="Variable" Display="advanced" Required="false" Mask="false">52000-52100</Config>
+  <Config Name="NEKO_SCREEN" Target="NEKO_SCREEN" Default="" Mode="" Description="Container Variable: NEKO_SCREEN" Type="Variable" Display="advanced" Required="true" Mask="false">1920x1080@30</Config>
+  <Config Name="Port 52000-52100" Target="52000-52100" Default="52000-52100" Mode="udp" Description="Needed for Webrtc Communication" Type="Port" Display="advanced" Required="false" Mask="false">52000-52100</Config>
+</Container>
