@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/m1k1o/neko/</Registry>
   <Network>bridge</Network>
   <MyIP/>
-  <Shell>sh</Shell>
+  <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support/>
   <Project/>
@@ -61,7 +61,7 @@ https://github.com/Kippenhof/docker-templates/wiki/Neko</Description>
       <Mode/>
     </Variable>
     <Variable>
-      <Value></Value>
+      <Value>192.168.1.x</Value>
       <Name>NEKO_NAT1TO1</Name>
       <Mode/>
     </Variable>
@@ -80,7 +80,7 @@ https://github.com/Kippenhof/docker-templates/wiki/Neko</Description>
   <Config Name="Web UI" Target="8080" Default="6530" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="true" Mask="false">6530</Config>
   <Config Name="NEKO_PASSWORD" Target="NEKO_PASSWORD" Default="ChangeMePls-&amp;lt;3" Mode="" Description="Container Variable: NEKO_PASSWORD" Type="Variable" Display="always" Required="true" Mask="false">ChangeMePls-&lt;3</Config>
   <Config Name="NEKO_PASSWORD_ADMIN" Target="NEKO_PASSWORD_ADMIN" Default="ChangeMeAlsoPls_:)" Mode="" Description="Container Variable: NEKO_PASSWORD_ADMIN" Type="Variable" Display="always" Required="true" Mask="false">ChangeMeAlsoPls_:)</Config>
-  <Config Name="NEKO_NAT1TO1" Target="NEKO_NAT1TO1" Default="" Mode="" Description="Enter IP if you want to use it in your local Network, else leave it Blank" Type="Variable" Display="always" Required="false" Mask="false">192.168.178.113</Config>
+  <Config Name="NEKO_NAT1TO1" Target="NEKO_NAT1TO1" Default="" Mode="" Description="Enter the IP of your Unraid-Server" Type="Variable" Display="always" Required="true" Mask="false">192.168.1.x</Config>
   <Config Name="NEKO_EPR" Target="NEKO_EPR" Default="52000-52100" Mode="" Description="Container Variable: NEKO_EPR" Type="Variable" Display="advanced" Required="false" Mask="false">52000-52100</Config>
   <Config Name="NEKO_SCREEN" Target="NEKO_SCREEN" Default="" Mode="" Description="Container Variable: NEKO_SCREEN" Type="Variable" Display="advanced" Required="true" Mask="false">1920x1080@30</Config>
   <Config Name="Port 52000-52100" Target="52000-52100" Default="52000-52100" Mode="udp" Description="Needed for Webrtc Communication" Type="Port" Display="advanced" Required="false" Mask="false">52000-52100</Config>
