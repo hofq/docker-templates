@@ -38,7 +38,13 @@ https://alpha-video.andrewstech.me/docs/unraid-os </Description>
       </Port>
     </Publish>
   </Networking>
-  <Data/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/alpha-video</HostDir>
+      <ContainerDir>/Data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
   <Environment>
     <Variable>
       <Value>Get Creative!</Value>
