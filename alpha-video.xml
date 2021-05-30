@@ -60,6 +60,7 @@ https://alpha-video.andrewstech.me/docs/unraid-os </Description>
   <Labels/>
   <Config Name="Port 5000" Target="5000" Default="5000" Mode="tcp" Description="Container Port: 5000" Type="Port" Display="always" Required="false" Mask="false">5000</Config>
   <Config Name="Port 9001" Target="9001" Default="9001" Mode="tcp" Description="Supervisor Process Control System (Web UI)" Type="Port" Display="always" Required="false" Mask="false">9001</Config>
-  <Config Name="Subdomain " Target="subdomain" Default="changeme" Mode="" Description="[typeabove].loca.lt (should be over 3 Charakters)" Type="Variable" Display="always" Required="false" Mask="false">Get Creative!</Config>
-  <Config Name="Enable Localtunnel" Target="localtunnel" Default="true" Mode="" Description="Enable Localtunnel (let the Default Value 'true' until i reworked the Docs)" Type="Variable" Display="always" Required="true" Mask="false">true</Config>
+    <Config Name="dockersock" Target="/Data" Default="/Data" Mode="rw" Description="Config for bespoken (saves the Generated URL)" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/alpha-video</Config>
+  <Config Name="Subdomain " Target="subdomain" Default="changeme" Mode="" Description="deprecated (Will be removed in the Next Patches)" Type="Variable" Display="always" Required="false" Mask="false">Get Creative!</Config>
+  <Config Name="Enable Localtunnel" Target="localtunnel" Default="true" Mode="" Description="deprecated (Will be removed in the Next Patches)" Type="Variable" Display="always" Required="true" Mask="false">true</Config>
 </Container>
