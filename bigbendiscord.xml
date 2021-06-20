@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/Kippenhof/docker-templates/issues/new</support>
+  <Support>https://github.com/Kippenhof/docker-templates/issues/new</Support>
   <Project>https://github.com/Kippenhof/docker-templates</Project>
   <Overview>Big Ben Clock Discord-Bot is an self-hosted (useless) Discord Bot, that joins every Hour in an pre selected Voice channel, and plays the Big Ben Bells, to inform you, that you have entered an new Hour.&#xD;
 &#xD;
