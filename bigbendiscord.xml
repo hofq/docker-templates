@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Bigben-Discord</Name>
+  <Repository>https://github.com/HOF-Clan/big-ben-clock-discord-bot-docker</Repository>
+  <Registry>https://hub.docker.com/r/kippenhof/bigbendiscord/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/Kippenhof/docker-templates/issues/new</support>
+  <Project>https://github.com/Kippenhof/docker-templates</Project>
+  <Overview>Big Ben Clock Discord-Bot is an self-hosted (useless) Discord Bot, that joins every Hour in an pre selected Voice channel, and plays the Big Ben Bells, to inform you, that you have entered an new Hour.&#xD;
+&#xD;
+The Bot was Created by jamiesage123 and Dockerzied by me. (Kippenhof)
+&#xD;
+Github-Repo of the Bot: https://github.com/HOF-Clan/big-ben-clock-discord-bot-docker | Unraid-Template-Repo: https://github.com/Kippenhof/docker-templates
+</Overview>
+  <Category>Other:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/HOF-Clan/big-ben-clock-discord-bot-docker/master/Assets/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Big Ben Clock Discord-Bot is an self-hosted Discord Bot, that joins every Hour in an pre selected Voice channel, and plays the Big Ben Bells, to inform you, that you have entered an new Hour.&#xD;
+&#xD;
+The Bot was Created by jamiesage123 and Dockerzied by me.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data/>
+  <Environment>
+    <Variable>
+      <Value> </Value>
+      <Name>BOT_TOKEN</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>postgres://username:password@localhost:5432/database</Value>
+      <Name>DATABASE_URL</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="BOT_TOKEN" Target="BOT_TOKEN" Default="" Mode="" Description="Get an Bot-Token from the Discord Developer Portal and Enter it here" Type="Variable" Display="always" Required="true" Mask="true"> </Config>
+  <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="postgres://username:password@localhost:5432/database" Mode="" Description="Change the URL to your PostgreSQL host, to get it working" Type="Variable" Display="always" Required="true" Mask="false">postgres://username:password@localhost:5432/database</Config>
+</Container>
