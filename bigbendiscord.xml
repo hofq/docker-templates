@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Bigben-Discord</Name>
-  <Repository>https://github.com/HOF-Clan/big-ben-clock-discord-bot-docker</Repository>
+  <Repository>kippenhof/bigbendiscord</Repository>
   <Registry>https://hub.docker.com/r/kippenhof/bigbendiscord/</Registry>
   <Network>bridge</Network>
   <MyIP/>
