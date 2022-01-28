@@ -10,7 +10,7 @@
   <Support>https://discord.gg/78p36SbKcV</Support>
   <Project>https://github.com/unofficial-skills/alpha-video</Project>
   <Overview/>
-  <Category>Music</Category>
+  <Category>MediaApp:</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Kippenhof/docker-templates/main/alpha-video.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Kippenhof/docker-templates/main/pictures/yt2thesea.png</Icon>
