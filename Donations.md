@@ -17,7 +17,7 @@ The Main Part was Written by [nurdism](https://github.com/nurdism/neko) and it g
 
 ## win11 in React
 
-Windows 11 in React is mainly created by 2 Contributors:
+Windows 11 in React [is mainly created](https://github.com/blueedgetechno/win11React/graphs/contributors) by 2 Contributors:
 
 - Blue edge (Founder): https://www.buymeacoffee.com/blueedgetechno
 
