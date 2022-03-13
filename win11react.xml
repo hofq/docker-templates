@@ -16,7 +16,7 @@ It is not an full fledged Operating System, more like a gimmick.&#xD;
 Original Repository:&#xD;
 https://github.com/blueedgetechno/win11React</Overview>
   <Category>Other</Category>
-  <WebUI>http://[IP]:[PORT:3612]</WebUI>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Kippenhof/docker-templates/main/pictures/win11react.png</Icon>
   <ExtraParams/>
