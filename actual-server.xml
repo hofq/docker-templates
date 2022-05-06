@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Actual Server</Name>
+  <Name>ActualServer</Name>
   <Repository>kippenhof/actual-server</Repository>
   <Registry>https://hub.docker.com/r/kippenhof/actual-server</Registry>
   <Network>bridge</Network>
@@ -11,9 +11,9 @@
   <Project>https://github.com/Kippenhof/docker-templates</Project>
   <Overview>Actual is a super fast privacy-focused app for managing your finances. You own your data, and it will sync it across all devices with optional end-to-end encryption..&#xD;
 &#xD;
-The Software was Created by The Actual Team.
+The Software was Created by The Actual Team.&#xD;
 &#xD;
-Github-Repo of the The Client:https://github.com/actualbudget/actual | Github-Repo of the Server: https://github.com/actualbudget/actual-server
+Github-Repo of the The Client:https://github.com/actualbudget/actual | Github-Repo of the Server: https://github.com/actualbudget/actual-server&#xD;
 </Overview>
   <Category>Other:</Category>
   <WebUI>http://[IP]:[PORT:5006]</WebUI>
@@ -27,7 +27,10 @@ Github-Repo of the The Client:https://github.com/actualbudget/actual | Github-Re
   <DonateLink/>
   <Description>Actual is a super fast privacy-focused app for managing your finances. You own your data, and it will sync it across all devices with optional end-to-end encryption..&#xD;
 &#xD;
-The Software was Created by The Actual Team.</Description>
+The Software was Created by The Actual Team.&#xD;
+&#xD;
+Github-Repo of the The Client:https://github.com/actualbudget/actual | Github-Repo of the Server: https://github.com/actualbudget/actual-server&#xD;
+</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -41,5 +44,5 @@ The Software was Created by The Actual Team.</Description>
   <Data/>
   <Environment/>
   <Labels/>
-  <Config/>
+  <Config Name="Web UI" Target="5006" Default="5006" Mode="tcp" Description="Container Port: 5006" Type="Port" Display="always" Required="false" Mask="false">5006</Config>
 </Container>
