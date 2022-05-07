@@ -2,4 +2,4 @@
 
 
 
-If you are having Problems just open an Issue so i can fix it
+If you are having problems just open an issue so I can fix it.

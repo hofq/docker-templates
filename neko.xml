@@ -9,12 +9,12 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project/>
-  <Overview>Neko is an Open-Source self-hosted Alternative to rabb.it(deprecated).&#xD;
+  <Overview>Neko is an Open-Source self-hosted alternative to rabb.it(deprecated).&#xD;
 It Provide an Web-UI which is Secured by an Password.&#xD;
 &#xD;
-You can Easily Host it behind an Reverse-Proxy&#xD;
+You can easily host it behind a reverse proxy&#xD;
 &#xD;
-For Install-Docs &amp;amp; Sample Confs visit:&#xD;
+For Install-Docs &amp;amp; sample confs visit:&#xD;
 https://github.com/Kippenhof/docker-templates/wiki/Neko</Overview>
   <Category>Media Applications:Video</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
@@ -26,12 +26,12 @@ https://github.com/Kippenhof/docker-templates/wiki/Neko</Overview>
   <DateInstalled/>
   <DonateText/>
   <DonateLink/>
-  <Description>Neko is an Open-Source self-hosted Alternative to rabb.it(deprecated).&#xD;
-It Provide an Web-UI which is Secured by an Password.&#xD;
+  <Description>Neko is an Open-Source self-hosted alternative to rabb.it(deprecated).&#xD;
+It provides a web ui which is secured by a password.&#xD;
 &#xD;
-You can Easily Host it behind an Reverse-Proxy&#xD;
+You can easily host it behind a reverse proxy&#xD;
 &#xD;
-For Install-Docs &amp;amp; Sample Confs visit:&#xD;
+For Install-Docs &amp;amp; sample confs visit:&#xD;
 https://github.com/Kippenhof/docker-templates/wiki/Neko</Description>
   <Networking>
     <Mode>bridge</Mode>
