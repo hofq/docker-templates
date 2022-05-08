@@ -9,11 +9,11 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/hofq/docker-templates/issues/new</Support>
   <Project>https://github.com/hofq/docker-templates</Project>
-  <Overview>Big Ben Clock Discord-Bot is an self-hosted (useless) Discord Bot, that joins every Hour in an pre selected Voice channel, and plays the Big Ben Bells, to inform you, that you have entered an new Hour.&#xD;
+  <Overview>Big Ben Clock Discord-Bot is an self-hosted (useless) Discord bot that joins every hour in an pre selected voice channel and plays the Big Ben bells to inform you that you have entered a new hour.&#xD;
 &#xD;
-The Bot was Created by jamiesage123 and Dockerzied by me. (Kippenhof)
+The bot was created by jamiesage123 and Dockerzied by me. (Kippenhof)
 &#xD;
-Github-Repo of the Bot: https://github.com/HOF-Clan/big-ben-clock-discord-bot-docker | Unraid-Template-Repo: https://github.com/hofq/docker-templates
+Bot GitHub repo: https://github.com/HOF-Clan/big-ben-clock-discord-bot-docker | Unraid-Template repo: https://github.com/hofq/docker-templates
 </Overview>
   <Category>Other:</Category>
   <WebUI/>
@@ -25,7 +25,7 @@ Github-Repo of the Bot: https://github.com/HOF-Clan/big-ben-clock-discord-bot-do
   <DateInstalled/>
   <DonateText/>
   <DonateLink/>
-  <Description>Big Ben Clock Discord-Bot is an self-hosted Discord Bot, that joins every Hour in an pre selected Voice channel, and plays the Big Ben Bells, to inform you, that you have entered an new Hour.&#xD;
+  <Description>Big Ben Clock Discord-Bot is an self-hosted (useless) Discord bot that joins every hour in an pre selected voice channel and plays the Big Ben bells to inform you that you have entered a new hour.&#xD;
 &#xD;
 The Bot was Created by jamiesage123 and Dockerzied by me.</Description>
   <Networking>
