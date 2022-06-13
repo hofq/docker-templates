@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
+  <Beta>True</Beta>
   <Name>Crafty-4</Name>
   <Repository>registry.gitlab.com/crafty-controller/crafty-4:latest</Repository>
   <Registry>https://gitlab.com/crafty-controller/crafty-4/container_registry/2952493</Registry>
