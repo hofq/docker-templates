@@ -8,11 +8,7 @@ Donation-Links of wonderful App/Image Creators
 
 
 ## Neko
-
-The Neko container was not written by just one person.
-The main part was written by [nurdism](https://github.com/nurdism/neko) and it gets maintained by [m1k1o](https://github.com/m1k1o/neko) of which I could not find a donation link. You can donate to the project with your code though.
-
-[Donate to Nurdism](https://www.patreon.com/nurdism)
+Neko is actively maintained by [m1k1o](https://github.com/m1k1o) since mid 2020. You can donate to him [here](https://github.com/sponsors/m1k1o). You can also [donate to Nurdism](https://www.patreon.com/nurdism), the original Creator of Neko.
 
 
 ## win11 in React
