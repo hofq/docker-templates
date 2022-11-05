@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>FritzBox Exporter</Name>
+  <Repository>pdreker/fritz_exporter:2</Repository>
+  <Registry>https://hub.docker.com/r/pdreker/fritz_exporter</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/hofq/docker-templates/issues/new</Support>
+  <Project>https://github.com/Kippenhof/docker-templates</Project>
+  <Overview>This is a prometheus exporter for AVM Fritz! home network devices commonly found in Europe.&#xD;
+  &#xD;
+  This exporter uses the devices builtin TR-064 API via the fritzconnection python module.
+&#xD;
+GitHub repo: https://github.com/sberk42/fritzbox_exporter &#xD;
+Docs: https://fritz-exporter.readthedocs.io/en/latest/quickstart.html &#xD;
+</Overview>
+  <Category>Network:Other Tools:Utilities</Category>
+  <WebUI></WebUI>
+  <TemplateURL/>
+  <Icon>https://upload.wikimedia.org/wikipedia/de/thumb/6/68/Fritz%21_Logo.svg/1024px-Fritz%21_Logo.svg.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Description>This is a prometheus exporter for AVM Fritz! home network devices commonly found in Europe.&#xD;
+  &#xD;
+  This exporter uses the devices builtin TR-064 API via the fritzconnection python module.
+&#xD;
+GitHub repo: https://github.com/sberk42/fritzbox_exporter &#xD;
+Docs: https://fritz-exporter.readthedocs.io/en/latest/quickstart.html &#xD;
+</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>9787</HostPort>
+        <ContainerPort>9787</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+  <Config Name="Listen Port" Target="9787" Default="9787" Mode="tcp" Description="Container Port: 9787, you have to enter it in your Prometheus Conf" Type="Port" Display="always" Required="true" Mask="false">9787</Config>
+  <Config Name="FRITZ_HOSTNAME" Target="FRITZ_HOSTNAME" Default="192.168.178.1" Mode="" Description="Fritz!Box URL" Type="Variable" Display="always" Required="true" Mask="false">192.168.178.1</Config>
+  <Config Name="FRITZ_USERNAME" Target="FRITZ_USERNAME" Default="your_fritzbox_username" Mode="" Description="Fritz!Box Username" Type="Variable" Display="always" Required="true" Mask="false">your_fritzbox_username</Config>
+  <Config Name="FRITZ_PASSWORD" Target="FRITZ_PASSWORD" Default="" Mode="" Description="Fritz!Box Password" Type="Variable" Display="always" Required="true" Mask="true"></Config>
+</Container>
