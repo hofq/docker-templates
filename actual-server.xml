@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>ActualServer</Name>
   <Repository>jlongster/actual-server</Repository>
-  <Registry>https://hub.docker.com/r/kippenhof/actual-server</Registry>
+  <Registry>https://hub.docker.com/r/jlongster/actual-server</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
