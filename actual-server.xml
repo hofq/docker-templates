@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ActualServer</Name>
-  <Repository>jlongster/actual-server</Repository>
-  <Registry>https://hub.docker.com/r/jlongster/actual-server</Registry>
+  <Repository>actualbudget/actual-server</Repository>
+  <Registry>https://hub.docker.com/r/actualbudget/actual-server</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
@@ -45,6 +45,6 @@ Client GitHub repo: https://github.com/actualbudget/actual | Server GitHub repo:
   <Environment/>
   <Labels/>
   <Config Name="Web UI" Target="5006" Default="5006" Mode="tcp" Description="Container Port: 5006" Type="Port" Display="always" Required="false" Mask="false">5006</Config>
-  <Config Name="Host Path 1" Target="/app/server-files" Default="/mnt/user/appdata/actual-server/server-files" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/actual-server/server-files</Config>
-  <Config Name="Host Path 2" Target="/app/user-files" Default="/mnt/user/appdata/actual-server/user-files" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/actual-server/user-files</Config>
+  <Config Name="Host Path 1" Target="/data/server-files" Default="/mnt/user/appdata/actual-server/server-files" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/actual-server/server-files</Config>
+  <Config Name="Host Path 2" Target="/data/user-files" Default="/mnt/user/appdata/actual-server/user-files" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/actual-server/user-files</Config>
 </Container>
