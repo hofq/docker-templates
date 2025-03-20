@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/hofq/docker-templates/issues/new</Support>
+  <Support>https://github.com/actualbudget/actual/issues/new</Support>
   <Project>https://github.com/Kippenhof/docker-templates</Project>
   <Overview>Actual is a super fast privacy-focused app for managing your finances. You own your data and it will sync it across all devices with optional end-to-end encryption..&#xD;
 &#xD;
